@@ -3,7 +3,7 @@
 Welcome to the code repository for the Prisma Day 2022 NestJS Workshop! 
 
 #### Resources
-
+* https://prismaio.notion.site/prismaio/Let-s-build-a-REST-API-with-NestJS-and-Prisma-94258f8a78d7460883d5b900f706e9ae
 - [Notion Workshop Document](http://pris.ly/day-22-nestjs)
 - [NestJS Documentation](https://docs.nestjs.com/)
 - [Workshop Recording](https://youtu.be/LMjj1_EK4y8) 
