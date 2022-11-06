@@ -29,3 +29,5 @@ Quickly get started with the appropriate lesson by cloning/checking out the rele
 3. Apply database migrations: `npx prisma migrate dev` 
 4. Start the project:  `npm run start:dev`
 5. Access the project at http://localhost:3000/api
+
+### Note: In some cases running the nest generate command with the server already running may result in NestJS throwing an exception that says: Error: Cannot find module './app.controller'. If you run into this error, run the following command from the terminal: npm run prebuild and restart the server.
