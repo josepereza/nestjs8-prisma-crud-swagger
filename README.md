@@ -26,6 +26,9 @@ Quickly get started with the appropriate lesson by cloning/checking out the rele
 1. Install dependencies: `npm install`
 2. Start a PostgreSQL database with docker using: `docker-compose up -d`. 
     - If you have a local instance of PostgreSQL running, you can skip this step. However you will need to update the `DATABASE_URL` inside the `.env` file with the correct environment variable. 
+    ```
+    DATABASE_URL="postgresql://postgres:postgres@localhost:5431/nameDB"
+    
 3. Apply database migrations: `npx prisma migrate dev` 
 4. Start the project:  `npm run start:dev`
 5. Access the project at http://localhost:3000/api
